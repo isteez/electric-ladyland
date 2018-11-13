@@ -9,8 +9,7 @@ namespace ElectricLadyland.Controllers
     {
         public IActionResult Index()
         {
-            //return View(GetRssRoundRobin());
-            return Redirect("wod");
+            return View(GetRssRoundRobin());
         }
 
         public IActionResult WOD()
@@ -50,7 +49,7 @@ namespace ElectricLadyland.Controllers
             wodModel.Date = string.Format("{0} <br> {1}", DateTime.Now.ToString("dddd"), DateTime.Now.ToString("MMMM dd, yyyy"));
 
             XmlDocument doc = new XmlDocument();
-            doc.Load(@"../ElectricLadyland/Wods.xml");
+            doc.Load(@"../Wods.xml");
 
             foreach (XmlNode wodNode in doc.DocumentElement.ChildNodes)
             {
