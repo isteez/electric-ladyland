@@ -9,7 +9,8 @@ namespace ElectricLadyland.Controllers
     {
         public IActionResult Index()
         {
-            return View(GetRssRoundRobin());
+            //return View(GetRssRoundRobin());
+            return Redirect("wod");
         }
 
         public IActionResult WOD()
