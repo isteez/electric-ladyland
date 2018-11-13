@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <wods>
-    <wod date="20181112">
+    <wod date="20181113">
         <description>AMRAP &lt;br&gt; 7 clean &lt;br&gt; 7 front squat</description>
+    </wod>
+    <wod date="20181114">
+        <description>Front squat: 1-1-1-1-1-1-1-1-1-1 reps</description>
+    </wod>
+    <wod date="20181115">
+        <description>10 rounds for max calories of: &lt;br&gt; Row 45 seconds, rest 15 seconds &lt;br&gt; Row 30 seconds, rest 30 seconds &lt;br&gt; Row 15 seconds, rest 45 seconds</description>
     </wod>
 </wods>
