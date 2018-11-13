@@ -1,0 +1,67 @@
+﻿/* Pallets */
+#pallet-1 {
+    background-color: #9960E8
+}
+
+#pallet-2 {
+    background-color: #606FE8
+}
+
+#pallet-3 {
+    background-color: #378F8D
+}
+
+#pallet-4 {
+    background-color: #55378F
+}
+
+/* Navigation */
+.nav-bar {
+    padding: 15px
+}
+
+.nav-title {
+    text-align: left;
+    margin: 0
+}
+
+/* General */
+body {
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+    font-weight: 300
+}
+
+.col-1, .col-2 {
+    min-height: 500px;
+    position: relative
+}
+
+.col-1 {
+    float: left;
+    width: 40%
+}
+
+.col-2 {
+    float: right;
+    width: 60%
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}
+
+/* Width Specific */
+@media only screen and (max-width: 767px) {
+    .col-1, .col-2 {
+        width: 100%;
+        min-height: 200px
+    }
+}

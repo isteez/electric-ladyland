@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/ElectricLadyland/ElectricLadyland.csproj",
+      "projectUniqueName": "/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/ElectricLadyland.csproj",
       "projectName": "ElectricLadyland",
-      "projectPath": "/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/ElectricLadyland/ElectricLadyland.csproj",
+      "projectPath": "/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/ElectricLadyland.csproj",
       "packagesPath": "/Users/stephenkyles/.nuget/packages/",
-      "outputPath": "/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/ElectricLadyland/obj",
+      "outputPath": "/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
