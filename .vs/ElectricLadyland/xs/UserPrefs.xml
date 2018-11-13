@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{D093F774-C51D-4BCA-8493-DEE6AF4C2921}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElectricLadyland/Views/Home/WOD.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ElectricLadyland/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="ElectricLadyland/Controllers/HomeController.cs" Line="50" Column="13" />
-      <File FileName="ElectricLadyland/Views/Home/WOD.cshtml" Line="15" Column="7" />
+      <File FileName="ElectricLadyland/Controllers/HomeController.cs" Line="44" Column="20" />
+      <File FileName="ElectricLadyland/Views/Home/WOD.cshtml" Line="14" Column="30" />
+      <File FileName="ElectricLadyland/Views/Shared/_Layout.cshtml" Line="6" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
