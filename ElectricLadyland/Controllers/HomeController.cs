@@ -49,7 +49,7 @@ namespace ElectricLadyland.Controllers
             wodModel.Date = string.Format("{0} <br> {1}", DateTime.Now.ToString("dddd"), DateTime.Now.ToString("MMMM dd, yyyy"));
 
             XmlDocument doc = new XmlDocument();
-            doc.Load(@"../Wods.xml");
+            doc.Load(@"\site\wwwroot\Wods.xml");
 
             foreach (XmlNode wodNode in doc.DocumentElement.ChildNodes)
             {
