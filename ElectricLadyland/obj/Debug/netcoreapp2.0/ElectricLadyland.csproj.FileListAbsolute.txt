@@ -3,7 +3,6 @@
 /Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/bin/Debug/netcoreapp2.0/ElectricLadyland.runtimeconfig.dev.json
 /Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/bin/Debug/netcoreapp2.0/ElectricLadyland.dll
 /Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/bin/Debug/netcoreapp2.0/ElectricLadyland.pdb
-/Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/obj/Debug/netcoreapp2.0/ElectricLadyland.csprojResolveAssemblyReference.cache
 /Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/obj/Debug/netcoreapp2.0/ElectricLadyland.csproj.CoreCompileInputs.cache
 /Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/obj/Debug/netcoreapp2.0/ElectricLadyland.AssemblyInfoInputs.cache
 /Users/stephenkyles/Github/electric-ladyland/ElectricLadyland/obj/Debug/netcoreapp2.0/ElectricLadyland.AssemblyInfo.cs
