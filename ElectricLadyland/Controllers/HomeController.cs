@@ -46,7 +46,9 @@ namespace ElectricLadyland.Controllers
         WodModel GetWod()
         {
             WodModel wodModel = new WodModel();
-            wodModel.Date = string.Format("{0} <br> {1}", DateTime.Now.ToString("dddd"), DateTime.Now.ToString("MMMM dd, yyyy"));
+            wodModel.Date = string.Format("{0} <br> {1}",
+                                          DateTime.Now.ToString("dddd"),
+                                          DateTime.Now.ToString("yyyyMMdd"));
 
             XmlDocument doc = new XmlDocument();
             doc.Load(@"wwwroot/Wods.xml");

@@ -1,14 +1,14 @@
 ﻿/* Pallets */
 #pallet-1 {
-    background-color: #9960E8
+    background-color: #b093d8
 }
 
 #pallet-2 {
-    background-color: #606FE8
+    background-color: #84a3ea
 }
 
 #pallet-3 {
-    background-color: #378F8D
+    background-color: #5fafad
 }
 
 #pallet-4 {
@@ -21,7 +21,8 @@
 }
 
 .nav-title {
-    margin: 0
+    margin: 0;
+    font-weight: normal
 }
 
 /* General */
@@ -55,6 +56,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%
+}
+
+.wod-date, .wod-description {
+    font-weight: normal
 }
 
 /* Width Specific */
