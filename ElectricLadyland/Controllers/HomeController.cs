@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Xml;
 using ElectricLadyland.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -15,28 +15,32 @@ namespace ElectricLadyland.Controllers
         public IActionResult WOD()
         {
             //theme
-            @ViewBag.Pallet = string.Format("pallet-{0}", GetColorPallet());
-            @ViewBag.WorkoutFigure = string.Format("person-{0}.png", GetWorkoutFigure());
+            int rInt = RandomNumber();
+            @ViewBag.Pallet = string.Format("pallet-{0}", rInt);
+            @ViewBag.WorkoutFigure = GetMotionFigureURL(rInt);
 
             return View(GetWod());
         }
 
         #region Utilities
 
-        int GetColorPallet()
-        {
-            return RandomNumber();
-        }
-
-        int GetWorkoutFigure()
-        {
-            return RandomNumber();
-        }
-
         int RandomNumber()
         {
             Random r = new Random();
-            return r.Next(1, 5);
+            return r.Next(1, 3);
+        }
+
+        string GetMotionFigureURL(int index)
+        {
+            //TODO: move to xml file for easy updates
+            if (index == 1)
+            {
+                return "https://cdn.dribbble.com/users/398490/screenshots/2039177/bench_gif.gif";
+            }
+            else
+            {
+                return "https://cdn.dribbble.com/users/398490/screenshots/2848209/pullups.gif";
+            }
         }
 
         #endregion
